@@ -2,11 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="#ecf4ec"
     android:orientation="vertical" >
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
-
+    <ImageView
+        android:contentDescription="@string/desc"
+        android:src="@drawable/logo"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20dip"
+    	android:layout_marginLeft="20dip"
+        />
+    <RelativeLayout android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:background="#ecf4ec"
+				    android:gravity="center"
+				    android:orientation="vertical" >
+	    <Button
+	        android:id="@string/loginbtn"
+	        android:layout_width="114dip"
+	        android:layout_height="47dip"
+	        android:layout_gravity="center_horizontal"
+	        android:background="@drawable/loginbtn"
+	        />
+    </RelativeLayout>
 </LinearLayout>
