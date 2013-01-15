@@ -6,5 +6,6 @@
 	<string name="desc">none</string>
 	<string name="loginbtn">loginbtn</string>
 	<string name="showWeb">webView</string>
-	<string name="authcallbackURL">mobileApp.com</string>
+	<string name="authcallbackURL">http://mobileapp.com/</string>
+	<string name="index">友邻广播</string>
 </resources>
